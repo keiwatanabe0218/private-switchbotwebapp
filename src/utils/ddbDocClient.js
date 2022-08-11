@@ -1,9 +1,6 @@
 // Create a service client module using ES6 syntax.
 import { DynamoDBDocumentClient } from "@aws-sdk/lib-dynamodb";
 import { ddbClient } from "./ddbClient";
-// Set the AWS Region.
-const REGION = "us-east-1"; // For example, "us-east-1".
-
 
 const marshallOptions = {
   // Whether to automatically convert empty strings, blobs, and sets to `null`.
